@@ -1,7 +1,7 @@
-# Welcome to streamlit
+# Streamlit Dashboard for the trading Bot
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+The Bot is running every7 minutes and trading if conditions are met.
+The bot is saving transactions data in S3 and we would like to have a representation of the daat in an online dashboard that
+can be refreshed manually or by push updates. 
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
-
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+Streamlit is one possibility to achieve this.
